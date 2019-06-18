@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*ul,li,div,p,h1,h2,h3,h4,h5,a,ol,img,form {
+	margin: 0px;
+	padding: 0px;
+}*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, textarea, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, input, output, ruby, section, summary, time, mark, audio, video {
+	border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 0;
+}
+
+a {
+	position: unset;
+}
+
+b {
+	font-weight: bold;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-image: url(../../img/ud_images/ubackground.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body .select2-container {
+	height: 25px !important;
+}
+
+body .select2-selection__rendered {
+	line-height: 1.8 !important;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 14px !important;
+}
+
+#headerBg {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+	background-image: url(../../img/ud_images/header.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: contain;
+    /* z-index: 0; */
+}
+
+#wrapper {
+	margin: 0 auto;
+	text-align: left;
+	width: 900px;
+	height: auto;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+
+#routingTable {
+	/* position: absolute;
+	width: 0;
+	height: 0;
+	top: -1000px; */
+	display: none;
+}
+
+@media only screen and (max-width: 900px) 
+{
+	#wrapper {
+		width: 100%;
+	}
+}

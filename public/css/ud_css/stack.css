@@ -1,0 +1,16 @@
+body #headerBg { z-index: 0; }
+body #dashboard { z-index: 2; }
+body #wrapper { z-index: 1; }
+body #menu { z-index: 4; }
+body #floater { z-index: 3; }
+body .select2-container { z-index: 5; }
+
+#wrapper #logoBg {z-index: 0; }
+#wrapper #mainNav { z-index: 2; }
+#wrapper #mainContentArea { z-index: 1; }
+
+#menu .menu-icon #closeMenu { z-index: 1; }
+#menu ul { z-index: 0; }
+
+#mainContent #subNav { z-index: 1; }
+#mainContent #content { z-index: 0; }

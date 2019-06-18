@@ -1,0 +1,183 @@
+#mainNav {
+	background-image: url(../../img/ud_images/nullNav.png);
+	background-position: 384px 0;
+	background-repeat: no-repeat;
+	width: inherit;
+	height: 46px;
+	position: relative;
+	margin-top: 10px;
+	box-shadow: #222 0 4px 4px;
+	/* z-index: 1; */
+}
+
+#mainNav .navBlock, #mainNav div {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	display: block;
+	width: 95px;
+	height: 46px;
+	text-align: center;
+	line-height: 3;
+	color: #333;
+	font-family: LondonTwo, "Gill Sans Ultra Bold", "britannic Bold", impact, "headline One", "Century Gothic";
+	font-size: 1em;
+	text-decoration: none;
+}
+
+#mainNav .spacer {
+    width: 1px;
+    top: 1px;
+}
+
+#mainNav #blogNav div {
+	background-image: url(../../img/ud_images/homeNavSprite.png);
+	background-position: 0 0;
+}
+
+#mainNav #servicesNav div {
+	background-image: url(../../img/ud_images/servicesNavSprite.png);
+	background-position: 0 0;
+}
+
+#mainNav #aboutNav div {
+	background-image: url(../../img/ud_images/aboutNavSprite.png);
+	background-position: 0 0;
+}
+
+#mainNav #contactNav div {
+	background-image: url(../../img/ud_images/contactNavSprite.png);
+	background-position: 0 0;
+}
+
+#mainNav #blogNav div:hover, #mainNav #blogNav .active {
+	/* background-image: url(../../img/ud_images/homeNavSprite.png); */
+	background-position: 0 -46px;
+	color: #000;
+}
+
+#mainNav #servicesNav div:hover, #mainNav #servicesNav .active {
+	/* background-image: url(../../img/ud_images/servicesNavSprite.png); */
+	background-position: 0 -46px;
+	color: #000;
+}
+
+#mainNav #aboutNav div:hover, #mainNav #aboutNav .active {
+	/* background-image: url(../../img/ud_images/aboutNavSprite.png); */
+	background-position: 0 -46px;
+	color: #000;
+}
+
+#mainNav #contactNav div:hover, #mainNav #contactNav .active {
+	/* background-image: url(../../img/ud_images/contactNavSprite.png); */
+	background-position: 0 -46px;
+	color: #000;
+}
+
+#mainNav #loginBtn {
+	background-image: url(../../img/ud_images/loginSprite.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 73px;
+	height: 27px;
+	font-family: Tahoma, Geneva, sans-serif, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 9px;
+	color: #222;
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	right: 233px;
+	line-height: 2.3;
+	cursor: default;
+}
+
+#mainNav #loginBtn span {
+	position: relative;
+	display: inline-block;
+	top: 3px;
+}
+
+#mainNav #loginBtn:hover {
+	/* background-image: url(../../img/ud_images/loginSprite.png); */
+	background-position: 0 -27px;
+	color: #000;
+}
+
+#mainNav #loginBtn:active {
+	/* background-image: url(../../img/ud_images/loginSprite.png); */
+	background-position: 0 -54px;
+	color: #fff;
+}
+
+#mainNav #search {
+	position: absolute;
+	display: block; 
+	top: 10px;
+	height: 25px; 
+	width: 200px; 
+	right: 10px;
+}
+
+#mainNav #search div {
+    position: absolute;
+    display: block;
+    right: 0;
+}
+
+#mainNav #search div .txt {
+	position: absolute;
+	width: 100px;
+	height: 25px;
+	right: 0px;
+	border-radius: 15px;
+	/* z-index: 5; */
+	border: 1px solid #333;
+	padding-bottom: 0px; 
+	padding-top: 0px; 
+	padding-left:10px;
+	padding-right: 35px;
+	font-family: 'Century Gothic'; 
+	font-size: 0.8em; 
+	font-style: italic; 
+	color: #9d9d9d;
+	background-color: #fff;
+    outline: none;
+    box-sizing: content-box;
+}
+
+#mainNav #search div .inputImg {
+	background-image:  url(../../img/ud_images/searchSprite.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	position: absolute;
+	/* z-index: 10; */
+	top: 6px;
+	right: 13px;
+}
+
+#mainNav #search div .inputImg:hover {
+	/* background-image:  url(../../img/ud_images/searchSprite.png); */
+	background-position: 0 -17px;
+	background-repeat: no-repeat;
+}
+
+#mainNav .administrator {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 0.7em;
+	position: absolute;
+	width: auto;
+	height: auto;
+	color: #111;
+	top: 8px;
+	left: 400px;
+}
+
+@media only screen and (max-width: 900px) 
+{
+	#mainNav {
+		display: none;
+	}
+}

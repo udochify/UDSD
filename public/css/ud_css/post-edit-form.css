@@ -1,0 +1,23 @@
+/* 
+#content #post-edit-form * {
+    box-sizing: unset;
+} */
+
+#post-edit-form textarea {
+    color: black;
+}
+
+#post-edit-form textarea#posttitle, #content #post-edit-form textarea#posttype {
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    vertical-align: bottom;
+    padding: 4px 0 0 10px;
+    margin: 2px 0 6px 0;
+}
+
+#post-edit-form .btn {
+    margin-top: 10px;
+}

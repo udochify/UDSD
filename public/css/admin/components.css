@@ -1,0 +1,71 @@
+.component-tab {
+    width: auto;
+    height: auto;
+    right: 1px;
+    z-index: 50;
+    float: right;
+}
+
+.component-tab * {
+    box-sizing: border-box;
+}
+
+.component-tab a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    width: auto;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.component-tab div {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding: 3px 2px 2px 2px;
+    margin-left: 5px;
+    box-shadow: #888 2px 2px 3px;
+    border: #777 solid 1px;
+}
+
+#new-tab {
+    position: absolute;
+    top: -25px;
+}
+
+#modify-tab {
+    position: relative;
+    top: 8px;
+}
+
+.cke {
+    box-sizing: unset;
+}
+
+.new-content {
+    background-color: #ada;
+}
+
+.edit-content {
+    background-color: #aad;
+}
+
+.delete-content {
+    background-color: #daa;
+}
+
+.comments .component-tab {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.comments .component-tab div {
+    box-shadow: #888 -2px -2px 3px;
+}

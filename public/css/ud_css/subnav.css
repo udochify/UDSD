@@ -1,0 +1,82 @@
+/*Sub-navigation style*/
+#subNav {
+	width: 100%;
+	height: auto;
+	text-decoration: none; 
+	/* z-index: 3;  */
+    position: absolute; 
+    top: -14px;
+    padding: 0 2.6%;
+	/* left: 16px; */
+}
+
+#subNav a, #subNav select {
+	text-align: left;
+	text-shadow: #999 1px 1px 2px;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	font-style: normal; 
+	font-weight: bold; 
+	color: #da3a3a;
+}
+
+#subNav div {
+	box-shadow: #888 -2px 2px 3px;
+	position: relative;
+	float: left;
+	padding: 5px;
+	margin-right: 8px;
+	background-color: #dddddd;
+	border: solid 1px #555;
+}
+
+#subNav #selectCategoryDiv {
+	box-shadow: #888 -2px 2px 3px;
+	float: right;
+	padding: 4px;
+	margin-right: 0;
+}
+
+#subNav #selectCategoryDiv select {
+	border: unset;
+}
+
+#subNav a:hover, #subNav .active, #subNav select:hover, #subNav .active select {
+	color: #990000;
+}
+
+#subNav div:hover, #subNav .active div {
+	background-color: #ffffff;
+	box-shadow: #777 -3px 3px 4px;
+	z-index: 1000;
+}
+
+#subNav .active div {
+	z-index: 900;
+}
+
+#subNav #selectCategoryDiv:hover, #subNav .active #selectCategoryDiv {
+	box-shadow: #777 -3px 3px 4px;
+}
+
+#subNav .btnCategory {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background: none;
+}
+
+#subNav #catCollection {
+	position: relative;
+	float: right;
+	display: block;
+	width: auto;
+	/* right: 32px; */
+	/* z-index:1001; */
+}
+
+#subNav #catCollection div{
+	position: absolute;
+	display: block;
+	right: 0;
+	margin-right: 0;
+	text-align: center;
+}

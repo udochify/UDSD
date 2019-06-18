@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+#widgets {
+	position: relative;
+	width: inherit;
+	/* margin-top: 30px; */
+}
+
+/* #widgets * {
+	opacity: 0.9;
+} */
+
+.widget_parent {
+	padding-bottom: 20px;
+	text-align: center;
+	display: block;
+	position: relative;
+	height: auto;
+	min-height: 50px;
+	width: 100%;
+	border-radius: 20px;
+}
+
+.widget_parent p {
+	text-align: left;
+}
+
+.widget_parent .widget_level_1 {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.widget_parent .widget_header {
+	height: 32px;
+	background-color: #aaa;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.widget_header p {
+	position: relative;
+	float: left;
+	padding-left: 10px;
+	font: bold 20px/1.6em "caviar Dreams",Calibri,"Californian FB",Cambria;
+	/*color: #780101;*/
+	color: #aa0000;
+}
+
+.widget_header .widget_option_btn {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 4px;
+	right: 4px;
+	background-image: url(../../img/ud_images/widget/option-btn-sprite.png);
+	background-position: 0 0;
+	cursor: pointer;
+	border: 1px solid #888;
+	border-radius: 15px;
+}
+
+.widget_header .widget_option_btn:hover {
+	border: 1px solid #777;
+	background-position: 0 -24px;
+}
+
+.widget_header .widget_option_btn:active {
+	border: 1px solid #777;
+	background-position: 0 0;
+}
+
+.widget_header .widget_option_clicked {
+	border: 1px solid #888;
+	background-position: 0 -48px;
+}
+
+.widget_header .widget_option_clicked:hover {
+	border: 1px solid #777;
+	background-position: 0 -72px;
+}
+
+.widget_header .widget_option_clicked:active {
+	border: 1px solid #777;
+	background-position: 0 -48px;
+}
+
+.widget_parent .widget_options {
+	position: relative;
+	height: auto;
+	background-color: #EDEEF6;
+	display: block;
+}
+
+.widget_parent form {
+	position: relative;
+	width: auto;
+	float: right;
+	right: 3px;
+}
+
+.widget_parent .btn {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0;
+	font-size: 11px;
+	width: 22px;
+	height: 22px;
+	color: #333;
+	background-color: #bbb;
+	font-weight: bold
+}
+
+.widget_parent .btn:hover {
+	color: #000;
+	background-color: #999;
+}
+
+.widget_options .ajax_select {
+	position: relative;
+	display: inline-block;
+	height: auto;
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+}
+
+.ajax_select .option_text {
+	float: right;
+	position: relative;
+	width: auto;
+	display: block;
+	/* margin-top: 5px; */
+	/* margin-right: 3px; */
+	font: bold 11px/2.5 Tahoma,Geneva,sans-serif;
+	color: #663333;
+	padding-right: 3px;
+}
+
+.ajax_select select {
+	width: 81px;
+	font: normal 12px/1.3em Letter Gothic MT,Trebuchet MS,Helvetica,Arial,sans-serif;
+	margin-left: 4px;
+}
+
+.ajax_select select option {
+	width: 56px;
+}
+
+.widget_parent .widget_content {
+	height: auto;
+}
+
+.widget_content .loading {
+	position: relative;
+	display: none;
+	margin: 0 auto;
+}
+
+.widget_content .loading img {
+	position: relative;
+	margin-top: 10px;
+}
+
+.widget_parent .widget_tail {
+	position: relative;
+	height: 15px;
+	background-color: #aaa;
+	margin-bottom: 0px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}

@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ajax_select .sort_by {
+	width: 89px;
+}
+
+.ajax_select .sort_by option {
+	width:56px;
+}
+
+.widget_archive li {
+	text-align: left;
+}
+
+.archive_level_1 .archive_level_2 {
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.archive_level_2 .archive_level_3 {
+	position: relative;
+	height: 22px;
+	margin-bottom: 3px;
+	/* background-color: #ccf; */
+    background-image: linear-gradient(45deg, rgb(202, 215, 249), rgba(58, 82, 119, 0.253), rgb(196, 203, 216));
+	color: #663333;
+	cursor: default;
+}
+
+.archive_level_2 .archive_level_3:hover {
+	/* background-color: #b7bdda; */
+    background-image: linear-gradient(45deg, rgb(196, 203, 216), rgba(58, 82, 119, 0.253), rgb(202, 215, 249));
+	color: #fff;
+}
+
+.archive_level_2 .ul_selected {
+	border: 1px solid #aaaadd;
+}
+
+.archive_level_2 .ul_selected .archiveIcon {
+	background-position: 0 -13px;
+}
+
+.archive_level_2 ul {
+	position: relative;
+	list-style: none;
+}
+
+.archive_level_2 li {
+	position: relative;
+	background-color: #EDEEF6;
+	margin-bottom: 2px;
+	height: 19px;
+	border: 1px solid #dfdfdf;
+}
+
+.archive_level_2 li:hover {
+	background-color: #d0d1d9;
+}
+
+.archive_level_2 li p {
+	padding-left: 10px;
+	font: 13px/1.6em Candara;
+}
+
+.archive_level_2 li a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	color: #333;
+}
+
+.archive_level_2 li a:hover {
+	color: #111;
+}
+
+.archive_level_2 li p .arcTitle {
+	width: 75%;
+	height: 19px;
+	/* width: 100%; */
+	float: left;
+	overflow: hidden;
+	word-wrap: none;
+}
+
+.archive_level_2 li a .arcDate {
+	width: 25%;
+	height: 19px;
+	text-align: right;
+	float: right;
+	/* position: absolute; */
+	/* right: 0px; */
+	padding-right: 5px;
+}
+
+.archive_level_3 .archiveIcon {
+	position: absolute;
+	width: 13px;
+	height: 12px;
+	top: 3px;
+	left: 3px;
+	cursor: pointer;
+	display: block;
+	background-image: url(../../img/ud_images/widget/minMaxSprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.archive_level_3 p {
+	padding-left: 17px;
+	font: bold 12px/1.8em Letter Gothic MT,Trebuchet MS,Helvetica,Arial,sans-serif;
+}

@@ -1,0 +1,67 @@
+#logoBg {
+	display: block;
+	position: relative;
+	width: 900px;
+	background-image: url(../../img/ud_images/ucontent.png);
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-attachment: scroll;
+	height: auto;
+	border-radius: inherit;
+	margin-top: 10px;
+	padding: 2px;
+	padding-right: 70px;
+	/* z-index: 1; */
+}
+
+#logoBg img {
+	display: block;
+	position: relative;
+	/* border: solid 2px transparent; */
+	border-radius: inherit;
+	width: 507px;
+	height: 106px;
+	box-shadow: #555 2px 1px 3px;
+}
+
+#logoBg #menuLine {
+	display: none;
+	width: 5%;
+	float: right;
+	position: absolute;
+	top: 36%;
+	right: 20px;
+}
+
+#logoBg #menuLine div {
+	display: block;
+	height: 3px;
+	width: 100%;
+	margin-bottom: 5px;
+	box-shadow: #666 0px 0px 5px;
+	background-color: #333;
+}
+
+#logoBg #menuLine:hover div {
+	box-shadow: #444 0px 0px 4px;
+	background-color: #111;
+}
+
+@media only screen and (max-width: 900px)
+{
+	#logoBg {
+		width: 100%;
+	}
+
+	#logoBg #menuLine {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 577px)
+{
+	#logoBg img {
+		width: 100%;
+		height: inherit;
+	}
+}

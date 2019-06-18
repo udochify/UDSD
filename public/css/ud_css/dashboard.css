@@ -1,0 +1,166 @@
+#dashboard, #ctrlBoard {
+	background-image: url(../../img/ud_images/dashboard.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 50px;
+	position: relative;
+	/* z-index: 100; */
+	display: block;
+	text-align: center;
+	margin-top: 0px;
+}
+
+#ctrlBoard {
+	background-image: none;
+	display: none;
+}
+
+#dashboard #login {
+	margin: 0 auto;
+	position: relative;
+	width: 900px;
+	height: 50px;
+	top: 0px;
+	display: block;
+	text-align: right;
+}
+
+#dashboard .form-horizontal, #dashboard .form-admin {
+    position: relative;
+    width: auto;
+    height: inherit;
+	display: block;
+	float: left;
+}
+
+#dashboard .form-col {
+	text-align: left;
+	position: relative;
+	display: block;
+	height: inherit;
+	width: auto;
+	float:left;
+	padding: 0 0 0px 5px;
+	bottom: 7px;
+}
+
+#dashboard .form-row {
+	position: relative;
+	display: table;
+	height: 25px;
+	width: auto;
+}
+
+#dashboard .form-row-up {
+	top: 3px;
+}
+
+#dashboard .form-row span {
+	position: relative;
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+#dashboard .sBtn {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: #ddd;
+	background-image: url(../../img/ud_images/signinBtnSprite.png);
+	background-position: 0 0;
+    background-repeat: no-repeat;
+    background-color: unset;
+    border: 0;
+	width: 53px;
+	height: 17px;
+	position: relative;
+	cursor: pointer;
+	bottom: -1px;
+}
+
+#dashboard .sBtn:hover {
+	background-position: 0 -17px;
+	color: #fff;
+}
+
+#dashboard .sBtn:active {
+	background-position: 0 -34px;
+	color: #fff;
+}
+
+#dashboard .authTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #667;
+	width: 100px;
+	height: 15px;
+	position: relative;
+	border-radius: 3px;
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+
+#dashboard .rem-row {
+	left: 1px;
+}
+
+#dashboard .rem-row span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: rgb(223, 223, 236);
+	bottom: -1px;
+}
+
+#dashboard .rem-row span:hover {
+	color: rgb(255, 255, 255);
+}
+
+#dashboard .last-col {
+	width: auto;
+	float: right;
+	padding-right: 5px;
+}
+
+#dashboard .last-col .form-row {	
+	width: 100%;
+	text-align: right;
+}
+
+#dashboard a {
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.65em;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(112, 172, 250);
+}
+
+#dashboard a:hover {
+	color: rgb(186, 211, 245);
+}
+
+#dashboard .has-error strong {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: rgb(255, 113, 113);
+}
+
+#dashboard .welcome-form, #dashboard .welcome-row {
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em;
+	color: rgb(253, 242, 242);
+	position: absolute;
+	bottom: 0;
+	left: 2px;
+}
+
+#dashboard .welcome-row strong {
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 900px)
+{
+	#dashboard #login {
+		width: 100%;
+	}
+}

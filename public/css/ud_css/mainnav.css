@@ -1,0 +1,31 @@
+#mainNav {
+    display: block;
+    position: relative;
+    width: inherit;
+    margin-top: 20px;
+}
+
+#mainNav div {
+    display: block;
+    width: 95px;
+    height: 46px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+#mainNav div.spacer {
+    width: 1px;
+}
+
+#mainNav div#search {
+    width: 516px;
+}
+
+#mainNav .navBlock img {
+    display: block;
+}
+
+#mainNav .navBlock img:hover {
+    margin-top: -46px;
+}

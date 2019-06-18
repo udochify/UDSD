@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* #mainContent #sideBars {
+	display: block;
+	position: relative;
+	padding-bottom: 30px;
+	height: auto;
+	float: right;
+	width: 296px;
+	top: 87px;
+	right: 0px;
+	z-index: 8;
+	margin-bottom: 100px;
+} */
+
+/* #mainContent #sideBar0 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.3em;
+	text-align:left;
+	position: relative;
+	height: auto;
+	min-height: 60px;
+	width: 296px;
+	top: 0px;
+	right: 0px;
+	margin-bottom: 85px;
+	z-index: 11;
+	color: #111;
+} */
+
+/* #mainContent #sideBar0 b{
+	text-shadow: #555 0px 0px 1px;
+} */
+ 
+/* #mainContent #sideBar0 .sheading{
+	font-family: "caviar Dreams", Calibri, "Californian FB", Cambria, "tempus Sans ITC";
+	font-size: 16px;
+	color: #AA0000;
+	text-align: left;
+	text-shadow: #888 1px 1px 1px;
+	margin-bottom: 10px;
+	margin-top: 13px;
+	border-bottom: 1px dotted #993333;
+} */
+
+/* #mainContent #sideBar1 {
+	background-color: #fff;
+	display: block;
+	position: relative;
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	height: auto;
+	min-height: 50px;
+	width: 241px;
+	left: 1px;
+	z-index: 20;
+	border-radius: 10px;
+} */
+
+/* #sbkGround0 {
+	width: 291px; 
+    height: 85px; 
+    position: absolute;
+	background-image: url(../../img/ud_images/sidebarTop.png);
+	background-repeat: no-repeat;
+    left: 0px; 
+    top: 0px; 
+    z-index: 1;
+} */
+
+/* #sbkGround1 {
+	width: 291px; 
+    height: 100%; 
+    position: absolute;
+	background-image: url(../../img/ud_images/sidebarMid.png);
+	background-repeat: repeat-y;
+    left: 0px; 
+    top: 85px; 
+    z-index: 1;
+}
+
+#sbkGround2 { 
+    position: relative;
+    left: 0px;  
+    z-index: 1;
+} */
+
+/* #scontent {
+	position: relative;
+	top: 43px;
+	padding-left: 13px;
+	padding-right: 25px;
+	z-index: 3;
+} */
+
+/* .sbkImg {
+	position: absolute;
+} */
+
